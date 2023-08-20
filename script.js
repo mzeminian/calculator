@@ -22,9 +22,6 @@ function divide(a, b) {
 
 //OPERATE FUNCTION
 function operate(firstNumber, secondNumber, operator){
-    firstNumber = parseInt(prompt("First Number"), 10);
-    operator = prompt("Somma");
-    secondNumber = parseInt(prompt("Second Number"), 10);
 
     if(operator == "+"){
         let result = add(firstNumber, secondNumber);
@@ -47,4 +44,3 @@ function operate(firstNumber, secondNumber, operator){
     }
 }
 
-window.onload = operate();
